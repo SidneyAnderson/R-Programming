@@ -3,3 +3,6 @@ myfunction <- function() {
   mean(x) 
 }
 
+second <- function(x) {
+  x+rnorm(length(x))
+}
